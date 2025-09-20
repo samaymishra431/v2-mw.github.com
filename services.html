@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Brahmin Matrimonial Services</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet" >
+      <link href="css/font-awesome.min.css" rel="stylesheet" >
+      <link href="css/global.css" rel="stylesheet">
+      <link href="css/services.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+      <!-- AOS Animation CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <style>
+        /* Responsive fix for .serv_1m2 content overflow on small screens */
+        @media (max-width: 767.98px) {
+          .serv_1m2 {
+            padding: 1.5rem 1rem !important;
+            font-size: 0.95rem;
+          }
+          .serv_1m2 h5,
+          .serv_1m2 h6 {
+            font-size: 1rem !important;
+          }
+          .serv_1m2 p {
+            font-size: 0.95rem !important;
+          }
+          .serv_1m2 .button {
+            font-size: 0.95rem !important;
+            padding: 0.5rem 1rem !important;
+            white-space: normal;
+          }
+        }
+        @media (max-width: 575.98px) {
+          .serv_1m2 {
+            padding: 1rem 0.5rem !important;
+          }
+        }
+        /* Responsive fix for check icon and text alignment in contribution list */
+        @media (max-width: 767.98px) {
+          .list-unstyled li {
+            display: flex;
+            align-items: center;
+          }
+          .list-unstyled li .bg_red {
+            flex-shrink: 0;
+          }
+        }
+        /* Always center content in .serv_1m2 and prevent overflow */
+        .serv_1m2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          box-sizing: border-box;
+          text-align: center;
+        }
+        .serv_1m2 h5,
+        .serv_1m2 h6,
+        .serv_1m2 p {
+          width: 100%;
+        }
+        .serv_1m2 .button {
+          white-space: normal;
+          word-break: break-word;
+        }
+      </style>
+   </head>
+   <body>
+          <div class="main_serv clearfix position-relative">
+         <!-- Search Modal -->
+         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none; top:0;" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content bg-transparent border-0">
+                  <div class="modal-header border-0">
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+                  </div>
+                  <div class="modal-body p-0">
+                     <div class="search_1">
+                        <div class="input-group">
+                           <input type="text" class="form-control bg-transparent border-0" placeholder="Search for matches...">
+                           <span class="input-group-btn">
+                           <button class="btn btn-primary bg-transparent border-0" type="button">
+                           <i class="fa fa-search"></i></button>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Header -->
+        <div class="main_1 clearfix position-absolute top-0 w-100">
+            <section id="top" class="pt-3 pb-3">
+               <div class="container-xl">
+                  <div class="row top_1">
+                     <div class="col-md-4">
+                        <div class="top_1l">
+                           <span class="d-inline-block bg_red  rounded-circle float-start me-2 text-center"><a href="#"><i class="fa fa-phone text-white"></i></a></span>
+                           <h6 class="mb-0 lh-base font_14"><a class="text-white" href="#"><b class="col_blue">For Further Inquiries :</b> <br>
+                              +91-9811424141</a>
+                           </h6>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="top_1m text-center mt-2">
+                           <h3 class="mb-0"><a class="text-white logo" href="index.html"><span class="logo_col">Brahmin</span> <span class="logo_col">Matrimony</span></a></h3>
+                        </div>
+                     </div>
+                     <!-- <div class="col-md-4">
+                        <div class="top_1r mt-2 text-end">
+                           <span class="d-inline-block text-center rounded-circle"><a  class="text-white d-block" data-bs-target="#exampleModal2" data-bs-toggle="modal" href="#"><i class="fa fa-search"></i></a></span>
+                        </div>
+                     </div> -->
+                  </div>
+               </div>
+            </section>
+            <section id="header">
+               <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3" id="navbar_sticky">
+                  <div class="container-xl">
+                     <a class="navbar-brand fs-3 p-0 fw-bold text-white  text-uppercase" href="index.html">Brahmin Matrimony</a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-0">
+                           <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="about.html">About Us</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link active" href="services.html">Services</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="ourTeam.html">Our Team</a>
+                           </li>
+                           
+                           <li class="nav-item">
+                              <a class="nav-link" href="blog.html">Blog</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="career.html">Career</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact US</a>
+                           </li>
+                        </ul>
+                        <ul class="navbar-nav mb-0 ms-auto">
+                           <li class="nav-item">
+                              <a class="nav-link button" href="#">JOIN NOW</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </section>
+         </div>
+         <!-- Hero -->
+         <div class="main_2 clearfix">
+            <section id="center" class="centre_o bg_back">
+               <div class="container-xl">
+                  <div class="row centre_o1 text-center">
+                     <div class="col-md-12">
+                        <h1 class="text-white text-uppercase font_60">MATRIMONIAL SERVICES</h1>
+                        <h6 class="mb-0 text-white fw-bold"><a class="text-white" href="#">HOME</a> <span class="mx-1 text-white-50">|</span> BRAHMIN MATRIMONY SERVICES</h6>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+      
+      <!-- Introduction Section -->
+      <section id="intro" class="p_3 bg-light">
+         <div class="container-xl">
+            <div class="row">
+               <div class="col-md-12 text-center mb-4">
+                  <h2 class="heading_1">A Community Matrimonial Service, Not a Business</h2>
+                  <p class="lead">We are a community-driven platform dedicated to helping Brahmin families find suitable matches for marriage. Our minimal contribution of ₹2100 is a lifetime partnership that gives you access to our verified matrimonial services while supporting our community.</p>
+                  <div class="mt-4 p-4 bg-white rounded_30 shadow-sm">
+                     <h4 class="col_blue">How Your Contribution Helps in Matchmaking</h4>
+                     <div class="row mt-4">
+                        <div class="col-md-4">
+                           <div class="text-center">
+                              <span class="bg_red text-white fs-2 rounded-circle d-inline-block p-3"><i class="fa fa-heart"></i></span>
+                              <h6 class="mt-3">Verified Matrimonial Profiles</h6>
+                              <p>Access to genuine Brahmin brides and grooms</p>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="text-center">
+                              <span class="bg_red text-white fs-2 rounded-circle d-inline-block p-3"><i class="fa fa-cogs"></i></span>
+                              <h6 class="mt-3">Matchmaking Platform</h6>
+                              <p>Advanced tools to find your perfect match</p>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="text-center">
+                              <span class="bg_red text-white fs-2 rounded-circle d-inline-block p-3"><i class="fa fa-users"></i></span>
+                              <h6 class="mt-3">Community Support</h6>
+                              <p>Dedicated assistance throughout your matchmaking journey</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Services Section with Animations -->
+      <section id="serv" class="p_3">
+         <div class="container-xl">
+            <div class="row serv_1 text-center">
+               <div class="col-md-4" data-aos="fade-up">
+                  <div class="serv_1m position-relative">
+                     <div class="serv_1m1"><img src="img/4.png" class="w-100 rounded_30" alt="profiles"></div>
+                     <div class="serv_1m2 text-center bg_back text-white p-5 px-4 position-absolute top-0 h-100 rounded_30">
+                        <span class="bg_red text-white fs-1 rounded-circle d-inline-block"><i class="fa fa-users"></i></span>
+                        <h5 class="mt-4">VERIFIED BRAHMIN PROFILES</h5>
+                        <p class="mt-4 text-white">Find 100% genuine and verified Brahmin brides and grooms from our community, matched with complete privacy and trust.</p>
+                        <h6 class="mb-0 mt-4 text-uppercase"><a class="button" href="#">View Profiles</a></h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="serv_1m position-relative">
+                     <div class="serv_1m1"><img src="img/5.png" class="w-100 rounded_30" alt="matchmaking"></div>
+                     <div class="serv_1m2 text-center bg_back text-white p-5 px-4 position-absolute top-0 h-100 rounded_30">
+                        <span class="bg_red text-white fs-1 rounded-circle d-inline-block"><i class="fa fa-heart"></i></span>
+                        <h5 class="mt-4">TRADITIONAL MATCHMAKING</h5>
+                        <p class="mt-4 text-white">Traditional matchmaking with gotra, horoscope, and lifestyle preferences for the best compatibility within our community.</p>
+                        <h6 class="mb-0 mt-4 text-uppercase"><a class="button" href="#">Find Your Match</a></h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                  <div class="serv_1m position-relative">
+                     <div class="serv_1m1"><img src="img/6.png" class="w-100 rounded_30" alt="privacy"></div>
+                     <div class="serv_1m2 text-center bg_back text-white p-5 px-4 position-absolute top-0 h-100 rounded_30">
+                        <span class="bg_red text-white fs-1 rounded-circle d-inline-block"><i class="fa fa-shield"></i></span>
+                        <h5 class="mt-4">PRIVACY PROTECTION</h5>
+                        <p class="mt-4 text-white">We ensure 100% privacy and protection of our community members' details at every stage, maintaining our values.</p>
+                        <h6 class="mb-0 mt-4 text-uppercase"><a class="button" href="#">Learn More</a></h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row serv_1 text-center mt-4">
+               <div class="col-md-4" data-aos="zoom-in">
+                  <div class="serv_1m position-relative">
+                     <div class="serv_1m1"><img src="img/31.png" class="w-100 rounded_30" alt="support"></div>
+                     <div class="serv_1m2 text-center bg_back text-white p-5 px-4 position-absolute top-0 h-100 rounded_30">
+                        <span class="bg_red text-white fs-1 rounded-circle d-inline-block"><i class="fa fa-comments"></i></span>
+                        <h5 class="mt-4">PERSONALIZED SUPPORT</h5>
+                        <p class="mt-4 text-white">Our dedicated community volunteers provide personalized assistance throughout your matchmaking journey.</p>
+                        <h6 class="mb-0 mt-4 text-uppercase"><a class="button" href="#">Get Support</a></h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="serv_1m position-relative">
+                     <div class="serv_1m1"><img src="img/32.jpg" class="w-100 rounded_30" alt="plans"></div>
+                     <div class="serv_1m2 text-center bg_back text-white p-5 px-4 position-absolute top-0 h-100 rounded_30">
+                        <span class="bg_red text-white fs-1 rounded-circle d-inline-block"><i class="fa fa-inr"></i></span>
+                        <h5 class="mt-4">LIFETIME MATRIMONY ACCESS</h5>
+                        <p class="mt-4 text-white">A minimal one-time contribution of ₹2100 gives you lifetime access to our matrimonial services and community support.</p>
+                        <h6 class="mb-0 mt-4 text-uppercase"><a class="button" href="#">Join Now</a></h6>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="serv_1m position-relative">
+                     <div class="serv_1m1"><img src="img/33.png" class="w-100 rounded_30" alt="community"></div>
+                     <div class="serv_1m2 text-center bg_back text-white p-5 px-4 position-absolute top-0 h-100 rounded_30">
+                        <span class="bg_red text-white fs-1 rounded-circle d-inline-block"><i class="fa fa-calendar"></i></span>
+                        <h5 class="mt-4">COMMUNITY EVENTS</h5>
+                        <p class="mt-4 text-white">Exclusive access to community matrimonial events and meetings to connect with potential matches in person.</p>
+                        <h6 class="mb-0 mt-4 text-uppercase"><a class="button" href="#">View Events</a></h6>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Contribution Explanation Section -->
+      <section id="contribution" class="p_3 bg_light">
+         <div class="container-xl">
+            <div class="row">
+               <div class="col-md-12 text-center mb-4">
+                  <h2 class="heading_1">Your Contribution Supports Brahmin Matrimony</h2>
+                  <p class="lead">We want to be completely transparent about how your contribution helps us provide quality matchmaking services to our community</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="p-4 bg-white rounded_30 shadow-sm h-100">
+                     <h4 class="col_blue mb-4">Why We Request a Contribution</h4>
+                     <p>Our platform is a community service dedicated to Brahmin matrimony. The one-time contribution of ₹2100 helps us:</p>
+                     <ul class="list-unstyled">
+                        <li class="mb-3"><span class="bg_red text-white rounded-circle p-2 me-3"><i class="fa fa-check"></i></span> Verify and maintain authentic Brahmin profiles</li>
+                        <li class="mb-3"><span class="bg_red text-white rounded-circle p-2 me-3"><i class="fa fa-check"></i></span> Develop and maintain our matchmaking platform</li>
+                        <li class="mb-3"><span class="bg_red text-white rounded-circle p-2 me-3"><i class="fa fa-check"></i></span> Provide personalized matchmaking assistance</li>
+                        <li class="mb-3"><span class="bg_red text-white rounded-circle p-2 me-3"><i class="fa fa-check"></i></span> Organize community matrimonial events</li>
+                        <li><span class="bg_red text-white rounded-circle p-2 me-3"><i class="fa fa-check"></i></span> Support community members who need financial assistance</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="p-4 bg-white rounded_30 shadow-sm h-100">
+                     <h4 class="col_blue mb-4">Our Commitment to Transparency</h4>
+                     <p>We believe in complete openness about how contributions are utilized for our matrimonial services:</p>
+                     <div class="progress-container mt-4">
+                        <div class="progress-item mb-3">
+                           <div class="d-flex justify-content-between">
+                              <span>Profile Verification & Security</span>
+                              <span>35%</span>
+                           </div>
+                           <div class="progress" style="height: 10px;">
+                              <div class="progress-bar bg_red" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress-item mb-3">
+                           <div class="d-flex justify-content-between">
+                              <span>Platform Development</span>
+                              <span>25%</span>
+                           </div>
+                           <div class="progress" style="height: 10px;">
+                              <div class="progress-bar bg_red" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress-item mb-3">
+                           <div class="d-flex justify-content-between">
+                              <span>Matchmaking Support</span>
+                              <span>20%</span>
+                           </div>
+                           <div class="progress" style="height: 10px;">
+                              <div class="progress-bar bg_red" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                        <div class="progress-item">
+                           <div class="d-flex justify-content-between">
+                              <span>Community Events</span>
+                              <span>20%</span>
+                           </div>
+                           <div class="progress" style="height: 10px;">
+                              <div class="progress-bar bg_red" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      
+       <!-- FAQ Section -->
+      <section id="faq" class="p_3">
+         <div class="container-xl">
+            <div class="row">
+               <div class="col-md-12 text-center mb-5">
+                  <h2 class="heading_1">Frequently Asked Questions</h2>
+                  <p class="lead">Common questions about our matrimonial services and community contribution</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="accordion" id="faqAccordionLeft">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                           Is this a matrimonial service specifically for Brahmins?
+                           </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              Yes, we are exclusively focused on serving the Brahmin community for matrimonial purposes. Our platform is designed to help Brahmin families find suitable matches while preserving our cultural values and traditions.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           What do I get for my ₹2100 contribution?
+                           </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              Your one-time contribution gives you lifetime access to our matrimonial services including: verified Brahmin profiles, advanced search filters, personalized matchmaking assistance, privacy protection, and invitations to exclusive community matrimonial events.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           How do you verify profiles?
+                           </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              We have a multi-step verification process that includes document verification, personal interviews, and community references to ensure all profiles are genuine Brahmin individuals seeking marriage within our community.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                           Do you consider horoscope and gotra matching?
+                           </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              Absolutely. We understand the importance of these traditional factors in Brahmin marriages. Our platform allows you to filter matches based on gotra compatibility and we can connect you with astrologers for horoscope matching.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                           How long does it take to find a match?
+                           </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              The time varies depending on individual preferences and requirements. However, our active community and personalized assistance typically help members find suitable matches within a few weeks to several months.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="accordion" id="faqAccordionRight">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                           Is my personal information safe?
+                           </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              Yes, we take privacy very seriously. Your contact details and personal information are never shared without your explicit permission. We have strict privacy protocols in place to protect our community members.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                           Can I get help if I'm not tech-savvy?
+                           </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              Absolutely! Our community volunteers are available to assist you with profile creation, searching for matches, and navigating the platform. We believe everyone should benefit from our services regardless of technical expertise.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                           What if I cannot afford the contribution?
+                           </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              We understand that circumstances vary. If you're genuinely unable to contribute but would benefit from our matrimonial services, please contact us directly. We have provisions to support community members in need.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                           Do you organize offline meetings or events?
+                           </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              Yes, we regularly organize community matrimonial events and meetings where members can interact in person. These events are exclusively for registered members and provide a comfortable, culturally appropriate setting for meeting potential matches.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                           How successful is your matchmaking service?
+                           </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              We have successfully helped hundreds of Brahmin couples find their life partners. Our community-focused approach, thorough verification process, and personalized assistance have resulted in many happy marriages within our community.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="testim" class="p_3 bg-light carousel_p">
+   <div class="container-xl">
+      <div class="row popular_1 text-center mb-4">
+         <div class="col-md-12">
+            <h6 class="col_blue">SUCCESS STORIES</h6>
+            <h1>HAPPY MARRIAGES THROUGH OUR SERVICE</h1>
+            <p class="mb-0">Hear from community members who found their life partners through our matrimonial service</p>
+         </div>
+      </div>
+      <div class="testim_1 row">
+         <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+               
+               <!-- First Slide -->
+               <div class="carousel-item">
+                  <div class="testim_1i row">
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/18.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Rahul & Priya <br> <span class="col_blue font_14 text-uppercase fw-normal">Married: Jan 2023</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">We found each other through this community service. The small contribution we made has given us a lifetime of happiness and helped support our community.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-half-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/19.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Ankit & Sneha <br> <span class="col_blue font_14 text-uppercase fw-normal">Married: Aug 2022</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">The traditional matchmaking approach considering gotra and horoscope compatibility made all the difference. We're perfectly matched thanks to this service.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/20.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Saurabh & Pooja <br> <span class="col_blue font_14 text-uppercase fw-normal">Married: Dec 2022</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">This platform feels different because it's community-driven. We're not just customers; we're part of a community helping each other find life partners.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Second Slide -->
+               <div class="carousel-item active">
+                  <div class="testim_1i row">
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/42.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Meera & Amit <br> <span class="col_blue font_14 text-uppercase fw-normal">Married: Mar 2023</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">The personal touch and community focus make this service special. The team helped our families connect in a traditional way that respected our values.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-half-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/43.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Rohan & Kavya <br> <span class="col_blue font_14 text-uppercase fw-normal">Married: Jun 2023</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">We met at one of the community events organized by this service. The comfortable setting made it easy to connect, and we're now happily married!</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/44.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Nitin & Shreya <br> <span class="col_blue font_14 text-uppercase fw-normal">Married: Feb 2023</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">The verification process gave us confidence that we were connecting with genuine Brahmin families. We found our perfect match within 2 months!</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <!-- Call to Action -->
+      <section id="sub" class="pt-3 pb-5 bg-light">
+         <div class="container-xl">
+            <div class="row sub_1 text-center">
+               <div class="col-md-12">
+                  <div class="sub_1l">
+                     <h6>FIND YOUR LIFE PARTNER</h6>
+                     <h1 class="mt-3">READY TO BEGIN YOUR <br> MATRIMONIAL JOURNEY?</h1>
+                     <p>Your one-time contribution of ₹2100 gives you lifetime access to our verified Brahmin matrimonial services, <br> personalized matchmaking assistance, and exclusive community events.</p>
+                     <ul class="mb-0 mt-4">
+                        <li class="d-inline-block"><a class="button text-uppercase" href="#">JOIN NOW</a></li>
+                        <li class="d-inline-block ms-2"><a class="button_1 text-uppercase" href="contact.html">CONTACT US</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="footer" class="p_3 bg_dark">
+         <div class="container-xl">
+            <div class="row footer_1">
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h3><a class="text-white" href="index.html"><span style="color: #71062a;">Brahmin</span> <span style="color: #71062a;">Matrimony</span></a></h3>
+                     <p class="mb-0 mt-3 text-white">A community initiative dedicated to helping Brahmin families find suitable matches for marriage, preserving our culture, and building meaningful connections within our community.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h5 class="text-white">MATRIMONY TIPS</h5>
+                     <hr class="line mb-4">
+                     <div class="footer_1i1 row">
+                        <div class="col-md-4 col-4 pe-0">
+                           <div class="footer_1i1l">
+                              <img src="./img/recentArt1.jpeg" class="w-100 rounded_10" alt="abc">
+                           </div>
+                        </div>
+                        <div class="col-md-8 col-8">
+                           <div class="footer_1i1r">
+                              <h6 class="font_14 mb-1 gw-bold"><a class="text-white" href="#">Creating a Great Profile</a></h6>
+                              <h6 class="mb-0 font_14 text-white-50">May 6, 2024</h6>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_1i1 row mt-3">
+                        <div class="col-md-4 col-4 pe-0">
+                           <div class="footer_1i1l">
+                              <img src="./img/recentArt2.jpeg" class="w-100 rounded_10" alt="abc">
+                           </div>
+                        </div>
+                        <div class="col-md-8 col-8">
+                           <div class="footer_1i1r">
+                              <h6 class="font_14 mb-1 gw-bold"><a class="text-white" href="#">Horoscope Matching Guide</a></h6>
+                              <h6 class="mb-0 font_14 text-white-50">May 8, 2024</h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h5 class="text-white">MATRIMONY SUPPORT</h5>
+                     <hr class="line mb-4">
+                     <p class="text-white">Need help with your matchmaking journey?
+                        Reach out to us!
+                     </p>
+                     <h6 class="text-light"><i class="fa fa-phone-square me-1" style="color: #71062a;"></i> Matchmaking Support: +91-9811424141</h6>
+                     <h6 class="text-light mt-3"><i class="fa fa-envelope me-1" style="color: #71062a;"></i> brahminmatrimony@community.com</h6>
+                     <h6 class="text-light mt-3 mb-0"><i class="fa fa-map me-1" style="color: #71062a;"></i> A-2, Suraj Park, Opp. Badli Industrial Area<br>Sector-18, Rohini, Delhi-110042 India</h6>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h5 class="text-white">SUCCESS GALLERY</h5>
+                     <hr class="line mb-4">
+                     <div class="footer_1i1 row">
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal1.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal2.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal3.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_1i1 row mt-2">
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal4.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal5.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal6.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr class="mt-4 mb-4 hr_bg">
+            <div class="row footer_2">
+               <div class="col-md-7">
+                  <div class="footer_2l">
+                     <p class="text-light">Subscribe for matrimony tips and community updates!</p>
+                     <input type="text" class="form-control font_14 float-start rounded_30 me-3" placeholder="Enter Your Email">
+                     <h6 class="mb-0 d-inline-block"><a class="button" href="#">SUBSCRIBE</a></h6>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="footer_2r text-end">
+                     <ul class="social_tag">
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                     <ul class="mb-0  font_14 tags">
+                        <li class="d-inline-block"><a href="#">Privacy Policy</a></li>
+                        <li class="d-inline-block mx-2 text-muted">|</li>
+                        <li class="d-inline-block"><a href="#">Term & Condition</a></li>
+                        <li class="d-inline-block mx-2 text-muted">|</li>
+                        <li class="d-inline-block"><a href="#">FAQ</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <hr class="mt-4 mb-4 hr_bg">
+            <div class="row footer_3 text-center">
+               <div class="col-md-12">
+                  <p class="mb-0 text-light">© 2024 Brahmin Matrimony Services. All Rights Reserved | Maintained by <a class="col_blue" href="#">Community Volunteers</a></p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Sticky Navbar Script -->
+      <script>
+         window.onscroll = function() {myFunction()};
+         var navbar_sticky = document.getElementById("navbar_sticky");
+         var sticky = navbar_sticky.offsetTop;
+         var navbar_height = document.querySelector('.navbar').offsetHeight;
+         function myFunction() {
+           if (window.pageYOffset >= sticky + navbar_height) {
+             navbar_sticky.classList.add("sticky")
+           } else {
+             navbar_sticky.classList.remove("sticky");
+             document.body.style.paddingTop = '0'
+           }
+         }
+      </script>
+      <!-- AOS Animation JS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 1000,
+          once: true
+        });
+      </script>
+   </body>
+</html>

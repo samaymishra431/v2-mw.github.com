@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Brahmin Matrimonial BOI</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet" >
+      <link href="css/font-awesome.min.css" rel="stylesheet" >
+      <link href="css/global.css" rel="stylesheet">
+      <link href="css/contact.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+      <!-- AOS Animation CSS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <style>
+.community-impact {
+   background: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3') center/cover fixed no-repeat;
+   padding: 100px 0;
+   position: relative;
+   color: white;
+   overflow: hidden;
+}
+.community-impact:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.7);
+}
+
+.impact-wrapper {
+   overflow: hidden;
+   white-space: nowrap;
+   position: relative;
+}
+
+.impact-slider {
+   display: inline-flex;
+   animation: scrollLeft 20s linear infinite; /* adjust speed */
+}
+
+.impact-item {
+   flex: 0 0 auto;
+   width: 250px; /* adjust width per item */
+   margin: 0 30px;
+   text-align: center;
+   color: white;
+}
+
+.impact-number {
+   font-size: 3rem;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.impact-text {
+   font-size: 1.2rem;
+   margin-bottom: 0;
+   color: white;
+}
+
+/* Continuous scrolling animation */
+@keyframes scrollLeft {
+   from {
+      transform: translateX(0);
+   }
+   to {
+      transform: translateX(-50%);
+   }
+}
+
+      </style>
+   </head>
+   <body>
+      <div class="main_desti clearfix position-relative">
+         <!-- search modal -->
+         <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none; top:0;" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content bg-transparent border-0">
+                  <div class="modal-header border-0">
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+                  </div>
+                  <div class="modal-body p-0">
+                     <div class="search_1">
+                        <div class="input-group">
+                           <input type="text" class="form-control bg-transparent border-0" placeholder="Type your keyword..">
+                           <span class="input-group-btn">
+                           <button class="btn btn-primary bg-transparent border-0" type="button">
+                           <i class="fa fa-search"></i></button>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- header -->
+         <div class="main_1 clearfix position-absolute top-0 w-100">
+            <section id="top" class="pt-3 pb-3">
+               <div class="container-xl">
+                  <div class="row top_1">
+                     <div class="col-md-4">
+                        <div class="top_1l">
+                           <span class="d-inline-block bg_red  rounded-circle float-start me-2 text-center"><a href="#"><i class="fa fa-phone text-white"></i></a></span>
+                           <h6 class="mb-0 lh-base font_14"><a class="text-white" href="#"><b class="col_blue">For Further Inquires :</b> <br>
+                              +91-9811424141</a>
+                           </h6>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="top_1m text-center mt-2">
+                           <h3 class="mb-0"><a class="text-white logo" href="index.html"><span class="logo_col">Brahmin</span> <span class="logo_col">Matrimony</span></a></h3>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </section>
+             <section id="header">
+               <nav class="navbar navbar-expand-md navbar-light pt-3 pb-3" id="navbar_sticky">
+                  <div class="container-xl">
+                     <a class="navbar-brand fs-3 p-0 fw-bold text-white  text-uppercase" href="index.html">  Brahmin Matrimony </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-0">
+                           <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="about.html">About Us</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="services.html">Services</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link active" href="ourTeam.html">Our Team</a>
+                           </li>
+                           
+                           <li class="nav-item">
+                              <a class="nav-link" href="blog.html">Blog</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="career.html">Career</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact US</a>
+                           </li>
+                        </ul>
+                        <ul class="navbar-nav mb-0 ms-auto">
+                           <li class="nav-item">
+                              <a class="nav-link button" href="#">JOIN NOW</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </section>
+         </div>
+         <div class="main_2 clearfix">
+            <section id="center" class="centre_o bg_back">
+               <div class="container-xl">
+                  <div class="row centre_o1 text-center">
+                     <div class="col-md-12">
+                        <h1 class="text-white text-uppercase font_60">OUR TEAM</h1>
+                        <h6 class="mb-0 text-white fw-bold"><a class="text-white" href="index.html">HOME</a> <span class="mx-1 text-white-50">|</span> TEAM</h6>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+
+      <!-- Team section with animations -->
+      <section id="team" class="p_3">
+         <div class="container-xl">
+            <div class="row popular_2 mb-4">
+               <div class="col-md-4" data-aos="fade-up">
+                  <div class="popular_2m position-relative">
+                     <div class="popular_2m1">
+                        <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg" class="w-100 rounded_10" alt="team1">
+                     </div>
+                     <div class="popular_2m2 rounded_10 bg-white p-4 position-absolute">
+                        <h6 class="col_blue font_14">President</h6>
+                        <h4 class="text-uppercase"><a href="#">Pandit Rajesh Mishra</a></h4>
+                        <p class="mb-0">Leading the organization with dedication to Brahmin unity & welfare.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="popular_2m position-relative">
+                     <div class="popular_2m1">
+                        <img src="https://images.pexels.com/photos/5917854/pexels-photo-5917854.jpeg" class="w-100 rounded_10" alt="team2">
+                     </div>
+                     <div class="popular_2m2 rounded_10 bg-white p-4 position-absolute">
+                        <h6 class="col_blue font_14">General Secretary</h6>
+                        <h4 class="text-uppercase"><a href="#">Smt. Anjali Sharma</a></h4>
+                        <p class="mb-0">Ensuring smooth functioning and addressing community concerns.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                  <div class="popular_2m position-relative">
+                     <div class="popular_2m1">
+                        <img src="https://images.pexels.com/photos/19113856/pexels-photo-19113856.jpeg" class="w-100 rounded_10" alt="team3">
+                     </div>
+                     <div class="popular_2m2 rounded_10 bg-white p-4 position-absolute">
+                        <h6 class="col_blue font_14">Vice President</h6>
+                        <h4 class="text-uppercase"><a href="#">Shri Manish Tripathi</a></h4>
+                        <p class="mb-0">Working tirelessly to strengthen connectivity among families.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row popular_2">
+               <div class="col-md-4" data-aos="fade-up">
+                  <div class="popular_2m position-relative">
+                     <div class="popular_2m1">
+                        <img src="https://images.pexels.com/photos/28616292/pexels-photo-28616292.jpeg" class="w-100 rounded_10" alt="team4">
+                     </div>
+                     <div class="popular_2m2 rounded_10 bg-white p-4 position-absolute">
+                        <h6 class="col_blue font_14">Treasurer</h6>
+                        <h4 class="text-uppercase"><a href="#">Neeraj Pandey</a></h4>
+                        <p class="mb-0">Managing funds transparently for community development.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                  <div class="popular_2m position-relative">
+                     <div class="popular_2m1">
+                        <img src="https://images.pexels.com/photos/33600245/pexels-photo-33600245.jpeg" class="w-100 rounded_10" alt="team5">
+                     </div>
+                     <div class="popular_2m2 rounded_10 bg-white p-4 position-absolute">
+                        <h6 class="col_blue font_14">Community Coordinator</h6>
+                        <h4 class="text-uppercase"><a href="#">Smt. Kavita Joshi</a></h4>
+                        <p class="mb-0">Connecting families and facilitating genuine matrimonial alliances.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                  <div class="popular_2m position-relative">
+                     <div class="popular_2m1">
+                        <img src="https://images.pexels.com/photos/8112145/pexels-photo-8112145.jpeg" class="w-100 rounded_10" alt="team6">
+                     </div>
+                     <div class="popular_2m2 rounded_10 bg-white p-4 position-absolute">
+                        <h6 class="col_blue font_14">Legal Advisor</h6>
+                        <h4 class="text-uppercase"><a href="#">Adv. Ramesh Chaturvedi</a></h4>
+                        <p class="mb-0">Guiding on legal matters & ensuring action against fraudulent entries.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+       <!-- Community Impact Section -->
+<!-- Community Impact Section -->
+<section class="community-impact">
+   <div class="container-xl position-relative">
+      <div class="row text-center">
+         <div class="col-md-12 mb-5">
+            <h2>Our Community Impact</h2>
+            <p class="lead text-white">Making a difference through selfless service</p>
+         </div>
+      </div>
+
+      <!-- Scrolling Impact Items -->
+      <div class="impact-wrapper">
+         <div class="impact-slider">
+            <div class="impact-item">
+               <div class="impact-number">500+</div>
+               <p class="impact-text">Lifetime Members</p>
+            </div>
+            <div class="impact-item">
+               <div class="impact-number">100+</div>
+               <p class="impact-text">Successful Matches</p>
+            </div>
+            <div class="impact-item">
+               <div class="impact-number">2+</div>
+               <p class="impact-text">Years of Service</p>
+            </div>
+            <div class="impact-item">
+               <div class="impact-number">100%</div>
+               <p class="impact-text">Volunteer-Based</p>
+            </div>
+            <!-- duplicate items for infinite loop -->
+            <div class="impact-item">
+               <div class="impact-number">500+</div>
+               <p class="impact-text">Lifetime Members</p>
+            </div>
+            <div class="impact-item">
+               <div class="impact-number">100+</div>
+               <p class="impact-text">Successful Matches</p>
+            </div>
+            <div class="impact-item">
+               <div class="impact-number">2+</div>
+               <p class="impact-text">Years of Service</p>
+            </div>
+            <div class="impact-item">
+               <div class="impact-number">100%</div>
+               <p class="impact-text">Volunteer-Based</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+ <!-- FAQ Section -->
+      <section id="faq" class="p_3 bg_light">
+         <div class="container-xl">
+            <div class="row">
+               <div class="col-md-12 text-center mb-5">
+                  <h2 class="heading_1">Frequently Asked Questions</h2>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="accordion" id="faqAccordionLeft">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                           What is BOI Matrimonial?
+                           </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              BOI Matrimonial is a dedicated platform for the Brahmin community, providing a safe and reliable space for individuals to find their life partners based on shared cultural values and traditions.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           How do you ensure the authenticity of profiles?
+                           </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              We have a strict verification process where every profile is manually reviewed. Our legal team also ensures action against any fraudulent entries to maintain the integrity of our community.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           Is my personal information safe?
+                           </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              Yes, we prioritize your privacy. All personal information is kept confidential and is only shared with your consent. We use advanced security measures to protect your data.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                           What is the "BOI Team"?
+                           </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              The "BOI Team" refers to our dedicated staff and volunteers who work tirelessly to manage the platform, verify profiles, and assist our members. They are the backbone of our organization.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                           Do you offer personalized matchmaking services?
+                           </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordionLeft">
+                           <div class="accordion-body">
+                              Yes, we offer personalized matchmaking and advisory services for our premium members. Our consultants work closely with families to understand their preferences and find suitable matches.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="accordion" id="faqAccordionRight">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                           What are the membership plans?
+                           </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              We offer a variety of membership plans, ranging from free basic access to premium packages with enhanced features like contact details, personalized assistance, and more. You can find all the details on our Membership page.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                           How do I register?
+                           </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              You can register by clicking on the "REGISTER NOW" button in the navigation bar. You will be guided through a simple form to create your profile.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                           What if I encounter a problem or have a suggestion?
+                           </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              Your feedback is highly valued. You can reach out to us via our Contact Us page, and our team will be happy to assist you with any issues or suggestions you may have.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                           How can I search for a partner?
+                           </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              We provide advanced search filters based on various criteria like age, location, education, occupation, and family background to help you find the perfect match.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                           Can I upload my family details?
+                           </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordionRight">
+                           <div class="accordion-body">
+                              Yes, our platform is designed to include comprehensive family details to assist in finding a compatible match that aligns with your family's values.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="testim" class="p_3 bg-light carousel_p">
+   <div class="container-xl">
+      <div class="row popular_1 text-center mb-4">
+         <div class="col-md-12">
+            <h6 class="col_blue">MEMBER REVIEWS</h6>
+            <h1>SUCCESS STORIES</h1>
+            <p class="mb-0">Hear from couples and families who found their perfect match through BOI Matrimonial.</p>
+         </div>
+      </div>
+      <div class="testim_1 row">
+         <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            </div>
+            <div class="carousel-inner">
+               
+               <!-- First Slide -->
+               <div class="carousel-item">
+                  <div class="testim_1i row">
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/18.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Rahul & Priya <br> <span class="col_blue font_14 text-uppercase fw-normal">BOI Couple</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">We met through BOI Matrimonial and the entire process was secure, transparent, and easy to follow. BOI truly helped us begin our journey together.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-half-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/19.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Ankit & Sneha <br> <span class="col_blue font_14 text-uppercase fw-normal">BOI Couple</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">BOI Matrimonial is dedicated to Brahmin families and provides genuine matches. The privacy and guidance we received made the entire search stress-free.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/20.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Saurabh & Pooja <br> <span class="col_blue font_14 text-uppercase fw-normal">BOI Couple</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">We highly recommend BOI to all Brahmin families. The platform is easy to use, transparent, and the support team is always ready to assist.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Second Slide -->
+               <div class="carousel-item active">
+                  <div class="testim_1i row">
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/42.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Meera & Amit <br> <span class="col_blue font_14 text-uppercase fw-normal">BOI Couple</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">Thanks to BOI, we found the right match for our daughter. The service is trustworthy, user-friendly, and ensures safe connections for families.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star-half-o"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/43.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Rohan & Kavya <br> <span class="col_blue font_14 text-uppercase fw-normal">BOI Couple</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">We are grateful for BOI’s efforts in bringing together Brahmin families. The platform is genuine, and it made our search smooth and successful.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="testim_1i1 bg-white p-4 clearfix">
+                           <span class="col_blue font_14">
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i><i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                           </span>
+                           <div class="testim_1i1i clearfix mt-3">
+                              <span><img src="img/44.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+                              <h6 class="mb-0 fw-bold text-uppercase lh-base"> Nitin & Shreya <br> <span class="col_blue font_14 text-uppercase fw-normal">BOI Couple</span></h6>
+                           </div>
+                           <p class="mb-0 mt-3">BOI Matrimonial is the best choice for Brahmin matrimony. We found our soulmate here and truly value the care and support given to us.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <!-- Re-purposed sub section (used for "Join Our Team") - using your provided content -->
+    <section id="sub" class="pt-5 pb-5 bg_red">
+   <div class="container-xl">
+      <div class="row sub_1">
+         <div class="col-md-9">
+            <div class="sub_1l">
+               <h6 class="text-white">JOIN OUR TEAM</h6>
+               <h1 class="text-white">WORKING FOR THE WELFARE OF <br> THE BRAHMIN COMMUNITY</h1>
+               <p class="mb-0 text-white">
+                  We are a voluntary organization dedicated to the welfare of the Brahmin community.  
+                  Together, we connect genuine matches, strengthen family bonds, and carry forward  
+                  the values of <b>Bhagwan Parshuram Ji</b>.  
+                  Suggestions and feedback are always welcome.  
+               </p>
+            </div>
+         </div>
+         <div class="col-md-3">
+            <div class="sub_1r text-end mt-5">
+               <h6 class="mb-0">
+                  <a class="button_1" href="contact.html">JOIN NOW</a>
+               </h6>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+        <section id="footer" class="p_3 bg_dark">
+         <div class="container-xl">
+            <div class="row footer_1">
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h3><a class="text-white" href="index.html"><span style="color: #71062a;">Matrimonial</span> <span style="color: #71062a;">BOI</span></a></h3>
+                     <p class="mb-0 mt-3 text-white">BOI Matrimonial is a trusted platform dedicated to helping Brahmins find their ideal life partners. Join us and be part of our happy community.</p>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h5 class="text-white">RECENT ARTICLES</h5>
+                     <hr class="line mb-4">
+                     <div class="footer_1i1 row">
+                        <div class="col-md-4 col-4 pe-0">
+                           <div class="footer_1i1l">
+                              <img src="./img/recentArt1.jpeg" class="w-100 rounded_10" alt="abc">
+                           </div>
+                        </div>
+                        <div class="col-md-8 col-8">
+                           <div class="footer_1i1r">
+                              <h6 class="font_14 mb-1 gw-bold"><a class="text-white" href="#">How to Create a Great Profile</a></h6>
+                              <h6 class="mb-0 font_14 text-white-50">May 6, 2024</h6>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_1i1 row mt-3">
+                        <div class="col-md-4 col-4 pe-0">
+                           <div class="footer_1i1l">
+                              <img src="./img/recentArt2.jpeg" class="w-100 rounded_10" alt="abc">
+                           </div>
+                        </div>
+                        <div class="col-md-8 col-8">
+                           <div class="footer_1i1r">
+                              <h6 class="font_14 mb-1 gw-bold"><a class="text-white" href="#">Tips for a Successful Marriage</a></h6>
+                              <h6 class="mb-0 font_14 text-white-50">May 8, 2024</h6>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h5 class="text-white">CONTACT US</h5>
+                     <hr class="line mb-4">
+                     <p class="text-white">Feel free to contact and
+                        reach us !!
+                     </p>
+                     <h6 class="text-light"><i class="fa fa-phone-square me-1" style="color: #71062a;"></i> Office: +91-9811424141</h6>
+                     <h6 class="text-light mt-3"><i class="fa fa-envelope me-1" style="color: #71062a;"></i> boindia18@gmail.com</h6>
+                     <h6 class="text-light mt-3 mb-0"><i class="fa fa-map me-1" style="color: #71062a;"></i> A-2,Suraj Park,Opp.Badli Industrial Area Sector-18.Rohini,Delhi-110042 India</h6>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="footer_1i">
+                     <h5 class="text-white">GALLERY</h5>
+                     <hr class="line mb-4">
+                     <div class="footer_1i1 row">
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal1.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal2.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal3.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_1i1 row mt-2">
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal4.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal5.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                        <div class="col-md-4 pe-1 ps-1 col-4">
+                           <div class="footer_1i1l">
+                              <img src="./img/gal6.jpeg" alt="abc" class="w-100 rounded_10">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr class="mt-4 mb-4 hr_bg">
+            <div class="row footer_2">
+               <div class="col-md-7">
+                  <div class="footer_2l">
+                     <p class="text-light">Subscribe to our newsletter for updates and relationship tips!</p>
+                     <input type="text" class="form-control font_14 float-start rounded_30 me-3" placeholder="Enter Your Email">
+                     <h6 class="mb-0 d-inline-block"><a class="button" href="#">SUBSCRIBE</a></h6>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="footer_2r text-end">
+                     <ul class="social_tag">
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li class="d-inline-block"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                     <ul class="mb-0  font_14 tags">
+                        <li class="d-inline-block"><a href="#">Privacy Policy</a></li>
+                        <li class="d-inline-block mx-2 text-muted">|</li>
+                        <li class="d-inline-block"><a href="#">Term & Condition</a></li>
+                        <li class="d-inline-block mx-2 text-muted">|</li>
+                        <li class="d-inline-block"><a href="#">FAQ</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <hr class="mt-4 mb-4 hr_bg">
+            <div class="row footer_3 text-center">
+               <div class="col-md-12">
+                  <p class="mb-0 text-light">© 2024 BOI Matrimonial. All Rights Reserved | Designed by <a class="col_blue" href="#">BOI Team</a></p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Scripts -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init({
+            duration: 1000,
+            once: true
+         });
+      </script>
+      <script>
+         window.onscroll = function() {myFunction()};
+         var navbar_sticky = document.getElementById("navbar_sticky");
+         var sticky = navbar_sticky.offsetTop;
+         var navbar_height = document.querySelector('.navbar').offsetHeight;
+         function myFunction() {
+           if (window.pageYOffset >= sticky + navbar_height) {
+             navbar_sticky.classList.add("sticky")
+           } else {
+             navbar_sticky.classList.remove("sticky");
+             document.body.style.paddingTop = '0'
+           }
+         }
+      </script>
+   </body>
+</html>
